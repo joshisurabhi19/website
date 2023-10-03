@@ -13,8 +13,8 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: finalrelease
-        image: finalrelease
+      - name: my-app-container
+        image: surabhi1908/project
         ports:
         - containerPort: 80
 
